@@ -19,7 +19,7 @@ class App extends Component {
       .catch(err => console.log(err));
   }
 
-  handleChange(e){
+  handleChange = (e) => {
     this.setState({ searchField: e.target.value })
   }
 
